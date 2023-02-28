@@ -11,7 +11,8 @@ const Signup = ({ children }) => {
         Here is a basic form you can use to sign up for our service. We will
         never sell your data or spam you.
       </p>
-      <Button>Submit</Button>
+      <Button>Submit</Button>\
+      <br />
       <Link to="/">Back to homepage</Link>
     </>
   );
