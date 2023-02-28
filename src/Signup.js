@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'uicomponents/Button';
+import { Link } from 'react-router-dom';
 
 const Signup = ({ children }) => {
 
@@ -11,6 +12,7 @@ const Signup = ({ children }) => {
         never sell your data or spam you.
       </p>
       <Button>Submit</Button>
+      <Link to="/">Back to homepage</Link>
     </>
   );
 };
