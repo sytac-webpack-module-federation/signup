@@ -37,7 +37,11 @@ module.exports = {
             remotes: {
                 uicomponents: "uicomponents@https://sytac-webpack-module-federation.github.io/ui-components/remoteEntry.js",
             },
-            shared: {react: {singleton: true}, "react-dom": {singleton: true}}
+            shared: {
+                react: {singleton: true},
+                "react-dom": {singleton: true},
+                "react-router-dom": {singleton: true}
+            }
         }),
     ],
 };
