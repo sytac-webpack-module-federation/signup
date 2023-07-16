@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from 'uicomponents/Button';
+import 'uicomponents/LitButton';
 import { Link } from 'react-router-dom';
 
 const Signup = ({ children }) => {
@@ -8,10 +8,9 @@ const Signup = ({ children }) => {
     <>
       <h1>Sign up now</h1>
       <p>
-        Here is a basic form you can use to sign up for our service. We will
-        never sell your data or spam you.
+        This is a Lit Button
       </p>
-      <Button>Submit</Button>\
+      <my-button title="Submit"></my-button>
       <br />
       <Link to="/">Back to homepage</Link>
     </>
