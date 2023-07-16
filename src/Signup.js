@@ -12,6 +12,7 @@ const Signup = ({ children }) => {
       </p>
       <my-button title="Submit"></my-button>
       <br />
+      <br />
       <Link to="/">Back to homepage</Link>
     </>
   );

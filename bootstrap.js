@@ -10,7 +10,7 @@ const App = () => {
 
     const router = createHashRouter([
         {
-            path: "/",
+            path: "*",
             element: <Signup />,
           },
       ]);
